@@ -1,0 +1,40 @@
+.caixa-01 {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+.label-principal {
+    position: relative;
+    padding-left: 20PX;
+   text-decoration: none;
+   font-weight: bold;
+    margin-left: 15px;
+} 
+
+.enviar:hover {
+    background: darkorange;
+    transform: scale(1.1);
+}
+
+
+.fieldset-principal {
+    margin-left: 35px;
+}
+
+.tabela {
+    margin-left: 35px;
+}
+
+@media screen and (max-width: 768px) {
+    .caixa-01 {
+        width: 100%;
+        float: none;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+    }
+}
+
